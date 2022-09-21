@@ -1,0 +1,128 @@
+nav {
+  background: #b3b3b3;
+  height: 90px;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  left: 0;
+  top: 0;
+}
+
+.nav-container {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+}
+
+.nav-logo {
+  align-items: center;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.nav-menu {
+  display: flex;
+  text-align: center;
+  margin-right: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+}
+.nav-menu li {
+  margin-right: 2rem;
+}
+
+.nav-menu a {
+  color: #f7f7f7;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+
+.nav-menu a:hover {
+  color: #cc9933;
+  transition: ease-in-out 0.3s;
+}
+
+.nav-menu a:active {
+  color: #cc9933;
+}
+
+.nav-menu-active {
+  display: none;
+}
+
+.nav-menu-active a {
+    transition: ease-in-out 0.3s;
+}
+
+.nav-menu-active a:hover{
+    color: #cc9933;
+}
+@keyframes animationname {
+  0% {
+    opacity: 0;
+    transform: translateY(-250px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.nav-icon {
+  display: none;
+  color: #f7f7f7;
+}
+
+.nav-icon .menu {
+  font-size: 2.5rem;
+  margin-right: 2rem;
+}
+
+@media (max-width: 900px) {
+  .nav-logo {
+    flex-grow: 1;
+    margin-left: 1rem;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
+  .nav-menu-active {
+    display: block;
+    position: absolute;
+    animation: animationname 0.6s ease-in 0s 1 normal none;
+    right: 0%;
+    top: 90%;
+    transition: 0.5s ease-in-out;
+    width: 100%;
+    text-align: right;
+    padding: 3rem;
+    list-style: none;
+    background: #b3b3b3;
+    z-index: 100;
+  }
+
+  .nav-menu-active li {
+    margin-top: 1rem;
+  }
+
+  .nav-menu-active a {
+    color: #45351b;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+
+  .nav-icon {
+    display: block;
+    cursor: pointer;
+  }
+}
