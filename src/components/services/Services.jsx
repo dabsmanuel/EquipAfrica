@@ -4,7 +4,7 @@ import card from './data';
 const Services = () => {
   return (
     <section id="Services">
-      <div className="services-container container-sm">
+      <div className="services-container containers">
         <h1>Services</h1>
         <p>
           We are focused on enhancing the business sector in Africa, introducing

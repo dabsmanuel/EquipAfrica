@@ -39,11 +39,27 @@ body {
   color: var(--color-primary);
 }
 
-h1, h2, h3, h4, p {
+h1, h2, h3, h4, h5, p {
   color: var(--color-primary);
 }
 
 .btn-success:hover{
+  background: var(--color-green);
+}
+
+.btn-primary{
+  padding: 0.6rem 0.7rem;
+  outline: none;
+  background: transparent;
+  border: 2px solid #198754;
+  /* font-size: 1.2rem; */
+  transition: 800ms all ease;
+  border-radius: 2rem;
+  color: var(--color-primary);
+  margin-top: 1rem;
+}
+
+.btn-primary:hover{
   background: var(--color-green);
 }
 

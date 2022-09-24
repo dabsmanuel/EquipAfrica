@@ -1,21 +1,20 @@
-import "bootstrap/dist/css/bootstrap.min.css";
-
-
 import Navbar from "./components/Navbar/Navbar";
 import Header from "./components/Header/Header";
 import About from "./components/About/About";
 import Services from "./components/services/Services";
-import Team from "./components/Team/Team";
+import Team from "./components/Mentors/Team";
+import Volunteers from "./components/Volunteers/Volunteers"
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Navbar />
       <Header />
       <About />
       <Services />
       <Team />
-    </div>
+      <Volunteers />
+    </>
   );
 }
 
