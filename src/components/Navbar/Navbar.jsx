@@ -82,38 +82,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-
-// import Nav from 'react-bootstrap/Nav';
-// import Navbar from 'react-bootstrap/Navbar';
-
-// function CollapsibleExample() {
-//   return (
-//     <Navbar
-//       collapseOnSelect
-//       expand="sm"
-//       bg="dark"
-//       variant="dark"
-//       sticky="top"
-//     >
-//       <div className="containers d-flex">
-//         <Navbar.Brand href="#home">
-//           <img src={navLogo} alt="" />
-//         </Navbar.Brand>
-//         <Navbar.Toggle aria-controls="navbarScroll" data-bs-target='#navbarScroll' />
-//         <Navbar.Collapse id='#navbarScroll'>
-//           <Nav className="ms-auto">
-//             <Nav.Link eventKey={1} href="#Home">Home</Nav.Link>
-//             <Nav.Link eventKey={2} href="#About">About</Nav.Link>
-//             <Nav.Link eventKey={3} href="#Services">Services</Nav.Link>
-//             <Nav.Link eventKey={4} href="#Team">Team</Nav.Link>
-//             <Nav.Link eventKey={5} href="#contact">Contact</Nav.Link>
-//           </Nav>
-//         </Navbar.Collapse>
-  
-//       </div>
-//     </Navbar>
-//   );
-// }
-
-// export default CollapsibleExample;
