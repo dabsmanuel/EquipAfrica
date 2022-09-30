@@ -1,8 +1,13 @@
-import mentors from "../../mentorData";
+import { useState } from "react";
+
+import mentors from "../../mentorData.js";
+import Modal from '../modal/Modal';
 import "./team.css";
 
 const Team = () => {
+  const [openModal, setOpenModal] = useState(false);
   return (
+    
     <section className="containers">
       <div class Name="team-container containers">
         <h1>Meet The Mentors</h1>
@@ -13,23 +18,26 @@ const Team = () => {
         </p>
         <h4>Our first cohort of mentors for Equip Africa</h4>
         <div className="photo-container">
-          {mentors.map(({ id, photo, name, country, title }) => {
+          {mentors.map((mentor) => {
             return (
-              <div className="person" key={id}>
+              <div className="person" key={mentor.id}>
                 <div className="person-image">
-                  <img src={photo} alt="" />
+                  <img src={mentor.photo} alt="" />
                 </div>
-                <h5>{name}</h5>
-                <p>{country}</p>
-                <p>{title}</p>
-                <button className="btn-primary">Read More..</button>
+                <h5>{mentor.name}</h5>
+                <p>{mentor.country}</p>
+                <p>{mentor.title}</p>
+                <button className="btn-primary" onClick={() => setOpenModal(true)}>
+                  Read More..
+                </button>
+                <Modal open={openModal} onClose={() => setOpenModal(false)}/>
               </div>
             );
           })}
         </div>
+        
       </div>
     </section>
   );
-};
-
+}
 export default Team;

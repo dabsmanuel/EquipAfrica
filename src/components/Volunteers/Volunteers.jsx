@@ -16,7 +16,7 @@ const Volunteers = () => {
                   <img src={photo} alt="" />
                 </div>
                 <h5>{name}</h5>
-                <p>{Role}</p>
+                <h6>{Role}</h6>
               </div>
             );
           })}

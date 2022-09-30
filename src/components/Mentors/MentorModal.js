@@ -4,7 +4,6 @@ const mentorModal = [
   {
     id: 1,
     name: "Eneyi Sharon Oshi",
-    description: "",
   },
 
   {

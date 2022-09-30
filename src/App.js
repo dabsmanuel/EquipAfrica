@@ -3,7 +3,7 @@ import Header from "./components/Header/Header";
 import About from "./components/About/About";
 import Services from "./components/services/Services";
 import Team from "./components/Mentors/Team";
-import Volunteers from "./components/Volunteers/Volunteers"
+import Volunteers from "./components/Volunteers/Volunteers";
 
 function App() {
   return (

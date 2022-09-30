@@ -11,8 +11,9 @@ const mentors = [
   {
     id: 1,
     photo: sharon,
-    name: "Eneyi Sharon Oshi",
+    name: "Eneyi Oshi",
     country: "Nigeria",
+    description: "",
   },
 
   {
@@ -29,12 +30,13 @@ const mentors = [
     photo: mentor1,
     name: "Ante Joseph",
     country: "Nigeria",
+    description: "",
   },
 
   {
     id: 4,
     photo: Joshua,
-    name: "Joshua Ogbonna",
+    name: "Joshua Ogbonnia",
     country: "Nigeria",
     description:
       "Joshua Ogbonnia is a purpose driven African young entrepreneur and a visionary Leader who is passionate about community and economic development. Joshua strongly believes true and sustainable education, integration of tech solutions in education and commercial sectors and multi-sector collaboration amongst many others will facilitate the desired impact on our National and Global communities and economies.Joshua Ogbonnia has numerous educational, vocational, business and entrepreneurship certificates and recognitions from institutions such as Google, MTN Business, Yali Network, Jobberman, Project Management Institute Nigeria, Tony Elumelu Foundation and more. Joshua Ogbonnia is the Founder at E Skool Now Group. Limited, an Education, Tech Solutions and Advisory who also mothers two other subsidiaries- The Tech Skool , an online school of tech and business education and the E Teacher Network: a Nonprofit which focuses on democratizing the educational workforce opportunities and promoting sustainable collaboration amongst stakeholders along the educational value chain.The mother body 'E Skool Now' focuses on Tech Solutions and Advisory services.",

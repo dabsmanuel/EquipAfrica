@@ -45,6 +45,10 @@
 }
 
 @media screen and (max-width: 1100px) {
+    .header-container {
+        padding-top: 8rem;
+    }
+
     .header-two {
         display: none;
     }
@@ -57,12 +61,12 @@
     .header-one p, .header-one h1, .header-one h3{
         text-align: center;
         width: 100%;
+        padding-top: 1rem;
     }
 
     .header-one button.btn-success {
         display: flex;
         margin: 0 auto;
-        
     }
 
 }
