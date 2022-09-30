@@ -64,7 +64,7 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#Join" className="nav-links" onClick={handleClick}>
+                <a href="#team" className="nav-links" onClick={handleClick}>
                   Team
                 </a>
               </li>

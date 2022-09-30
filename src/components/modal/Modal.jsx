@@ -5,7 +5,7 @@ const Modal = ({ open, onClose }) => {
   if (!open) return null;
   return (
     <>
-      {mentors.map(({ id, photo, description }) => {
+      {mentors.map(({ id, photo, description, index}) => {
         return (
           <div onClick={onClose} className="overlay" key={id}>
             <div

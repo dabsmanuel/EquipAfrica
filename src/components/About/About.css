@@ -28,7 +28,6 @@
 
 .about-grid .grid-2{
     border: 2px solid transparent;
-    color: #fff;
     padding: 1rem;
     border-radius: 0.5rem;
 }
@@ -39,6 +38,7 @@
 
 .about-grid .grid-2 p {
     font-size: 1.05rem;
+    text-align: justify;
 }
 
 @media screen and (max-width: 900px) {
@@ -48,5 +48,9 @@
 
     .grid-1{
         margin-bottom: 1rem;
+    }
+
+    .about-grid .grid-2 p {
+        font-size: 1rem;
     }
 }

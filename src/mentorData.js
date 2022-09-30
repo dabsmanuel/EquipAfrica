@@ -13,7 +13,7 @@ const mentors = [
     photo: sharon,
     name: "Eneyi Oshi",
     country: "Nigeria",
-    description: "",
+    description: "Eneyi Oshi is the convener of Equip Africa. She is the co-founder & CEO of Maatalous Nasah and she further leads the digital marketing arm (Farmisphere). She is a dynamic Agricultural Economist by training with a strong background in farm management. Entrepreneurship has been a natural thing for her, growing up in a rural community where young children around her suffered from malnutrition and scarcity of particularly protein foods due to its high cost and availability. She was determined to find out the particular cause and develop a solution, this led her to take up a 5 year degree programme studying Agriclutral Economics and Extension in the University of Port Harcourt. Her passion for proelling food security earned her a first class as she further ventured into agripreneurship during her 3rd year of schooling. However, she is a proponent of social entrepreneurship and therefore is particular about tackling malnutrition and ensuring food security especially in meeting protein needs sustainably. Her passion also led her to adopt the use of technological trends combined with the circular econmy to imp",
   },
 
   {

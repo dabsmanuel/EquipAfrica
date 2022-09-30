@@ -8,7 +8,7 @@ const Team = () => {
   const [openModal, setOpenModal] = useState(false);
   return (
     
-    <section className="containers">
+    <section className="containers" id="team">
       <div class Name="team-container containers">
         <h1>Meet The Mentors</h1>
         <p>
@@ -30,7 +30,7 @@ const Team = () => {
                 <button className="btn-primary" onClick={() => setOpenModal(true)}>
                   Read More..
                 </button>
-                <Modal open={openModal} onClose={() => setOpenModal(false)}/>
+                <Modal open={openModal} onClose={() => setOpenModal(false)} />
               </div>
             );
           })}
