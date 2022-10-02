@@ -34,7 +34,7 @@ body {
   background: transparent;
   border: 2px solid var(--color-green);
   font-size: 1.2rem;
-  transition: 800ms all ease;
+  transition: 100ms all ease;
   border-radius: 2rem;
   color: var(--color-primary);
 }
@@ -63,6 +63,11 @@ h1, h2, h3, h4, h5, h6, p {
   background: var(--color-green);
 }
 
+hr {
+  border: 2px solid var(--color-primary);
+  width: 90%;
+  margin: 1rem auto;
+}
 
 @media screen and (max-width: 600px) {
   .btn-success {

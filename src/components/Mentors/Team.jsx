@@ -1,13 +1,11 @@
 import { useState } from "react";
-
 import mentors from "../../mentorData.js";
 import Modal from '../modal/Modal';
 import "./team.css";
 
-const Team = () => {
-  const [openModal, setOpenModal] = useState(false);
+const Team = ({photo, name, description}) => {
+  const [showModal, setShowModal] = useState(false);
   return (
-    
     <section className="containers" id="team">
       <div class Name="team-container containers">
         <h1>Meet The Mentors</h1>
@@ -27,10 +25,15 @@ const Team = () => {
                 <h5>{mentor.name}</h5>
                 <p>{mentor.country}</p>
                 <p>{mentor.title}</p>
-                <button className="btn-primary" onClick={() => setOpenModal(true)}>
+                <button
+                  className="btn-primary"
+                  onClick={() => setShowModal(true)}
+                >
                   Read More..
                 </button>
-                <Modal open={openModal} onClose={() => setOpenModal(false)} />
+               {showModal && (
+				<Modal setShowModal={setShowModal} photo={photo} name={name} description={description}/>
+			)}
               </div>
             );
           })}

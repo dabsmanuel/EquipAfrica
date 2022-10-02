@@ -1,0 +1,51 @@
+.home6 {
+  background: #45351b;
+  padding: 2rem 0;
+}
+
+.home6 .end {
+    color: #ffffff;
+}
+
+.socal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.social a {
+    color: #fff;
+    font-size: 2rem;
+    padding: 0rem 2rem;
+}    
+
+.ocial a:hover{
+    color: rgb(202, 202, 202);
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.footerlist ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.footerlist li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.copy {
+    text-align: center;
+}

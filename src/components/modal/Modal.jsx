@@ -1,36 +1,23 @@
-import React from "react";
-import mentors from "../../mentorData";
+import "./Modal.css";
 
-const Modal = ({ open, onClose }) => {
-  if (!open) return null;
+const Modal = ({ setShowModal, photo, name, description }) => {
   return (
-    <>
-      {mentors.map(({ id, photo, description, index}) => {
-        return (
-          <div onClick={onClose} className="overlay" key={id}>
-            <div
-              onClick={(e) => {
-                e.stopPropagation();
-              }}
-              className="modalContainer"
-            >
+    <div className="modal-wrapper">
+      <div className="modal">
+        <button className="close-btn" onClick={() => setShowModal(false)}>
+          x
+        </button>
+
+          
+            <div className="modal-body">
               <img src={photo} alt="" />
-              <div className="modalRight">
-                <button onClick={onClose} className="closeBtn">
-                  X
-                </button>
-              </div>
-              <div className="modalContent">
-                <p>
-                  <i>{description}</i>
-                </p>
-              </div>
+              <h3>{name} </h3>
+              <p>
+                <i>{description}</i>
+              </p>
             </div>
-          </div>
-        );
-      })}
-    </>
+      </div>
+    </div>
   );
 };
-
 export default Modal;

@@ -1,5 +1,6 @@
 import volunteers from "../Volunteers/volunteerData";
 import '../Mentors/team.css'
+import './volunteer.css'
 
 
 const Volunteers = () => {
