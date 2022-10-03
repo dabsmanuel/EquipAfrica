@@ -1,9 +1,8 @@
 import { useState } from "react";
-import mentors from "../../mentorData.js";
 import Modal from '../modal/Modal';
 import "./team.css";
 
-const Team = ({photo, name, description}) => {
+const Team = ({photo, name, description, country, title}) => {
   const [showModal, setShowModal] = useState(false);
   return (
     <section className="containers" id="team">
@@ -16,29 +15,26 @@ const Team = ({photo, name, description}) => {
         </p>
         <h4>Our first cohort of mentors for Equip Africa</h4>
         <div className="photo-container">
-          {mentors.map((mentor) => {
-            return (
-              <div className="person" key={mentor.id}>
-                <div className="person-image">
-                  <img src={mentor.photo} alt="" />
-                </div>
-                <h5>{mentor.name}</h5>
-                <p>{mentor.country}</p>
-                <p>{mentor.title}</p>
-                <button
-                  className="btn-primary"
-                  onClick={() => setShowModal(true)}
-                >
-                  Read More..
-                </button>
-               {showModal && (
-				<Modal setShowModal={setShowModal} photo={photo} name={name} description={description}/>
-			)}
-              </div>
-            );
-          })}
+          <div className="person">
+            <div className="person-image">
+              <img src={photo} alt="" />
+            </div>
+            <h5>{name}</h5>
+            <p>{country}</p>
+            <p>{title}</p>
+            <button className="btn-primary" onClick={() => setShowModal(true)}>
+              Read More..
+            </button>
+            {showModal && (
+              <Modal
+                setShowModal={setShowModal}
+                photo={photo}
+                name={name}
+                description={description}
+              />
+            )}
+          </div>
         </div>
-        
       </div>
     </section>
   );
