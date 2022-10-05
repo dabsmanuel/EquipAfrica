@@ -1,0 +1,10 @@
+.team-container{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+.team-container h1{
+    color: var(--color-red);
+}

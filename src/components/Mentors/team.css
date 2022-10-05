@@ -3,24 +3,17 @@
   padding-bottom: 1rem;
 }
 
-.photo-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-  padding-top: 1rem;
-}
-
 .person {
   padding: 1rem 0;
   display: grid;
   place-items: center;
   transition: 1000ms all ease;
-  border: 2px solid var(--color-brown);
+  border: 2px solid var(--color-green);
   border-radius: 1rem;
 }
 
 .person-image {
-  width: 40%;
+  width: 30%;
   margin-bottom: 1rem;
 }
 
@@ -33,14 +26,4 @@
   text-align: center;
 }
 
-@media screen and (max-width: 1200px) {
-  .photo-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
 
-@media screen and (max-width: 900px) {
-  .photo-container {
-    grid-template-columns: 1fr;
-  }
-}

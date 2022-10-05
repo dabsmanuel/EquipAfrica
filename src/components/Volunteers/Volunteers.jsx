@@ -1,5 +1,4 @@
 import volunteers from "../Volunteers/volunteerData";
-import '../Mentors/team.css'
 import './volunteer.css'
 
 
@@ -9,11 +8,11 @@ const Volunteers = () => {
       <div className="volunteer-container containers">
         <h1>Meet Our Volunteers</h1>
 
-        <div className="photo-container">
+        <div className="volunteers">
           {volunteers.map(({ id, photo, name, Role }) => {
             return (
-              <div className="person" key={id}>
-                <div className="person-image">
+              <div className="volunteer-group" key={id}>
+                <div className="volunteer-image">
                   <img src={photo} alt="" />
                 </div>
                 <h5>{name}</h5>
