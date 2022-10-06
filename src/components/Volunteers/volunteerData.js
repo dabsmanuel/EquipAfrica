@@ -19,37 +19,37 @@ const Volunteers = [
 
   {
     id: 2,
+    photo: valentina,
+    name: "Obi Valentina",
+    Role: "Graphics Design Team",
+  },
+
+  {
+    id: 3,
     photo: akinola,
     name: "Akinola Joshua Adefolarera",
     Role: "Media manager",
   },
 
   {
-    id: 3,
+    id: 4,
     photo: hephzibah,
     name: "Hephzibah ijeje",
     Role: "Content creation team",
   },
 
   {
-    id: 4,
+    id: 5,
     photo: victoria,
     name: "Victoria E. Ubani.",
-    Role: "Gen. community Manager, Content creator & program coordinator"
-  },
-
-  {
-    id: 5,
-    photo: dabs,
-    name: "Oyibo D. Emmanuel",
-    Role: "Website Developer",
+    Role: "Gen. community Mgr, Content creator & program coordinator",
   },
 
   {
     id: 6,
-    photo: valentina,
-    name: "Obi Valentina",
-    Role: "Graphics Design Team",
+    photo: dabs,
+    name: "Oyibo D. Emmanuel",
+    Role: "Website Developer",
   },
 
   {

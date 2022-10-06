@@ -1,4 +1,4 @@
-import sharon from './Assets/img6a.png'
+import sharon from './Assets/shalom.jpg'
 import mentor from './Assets/img6b.png';
 import mentor1 from "./Assets/img6c.png";
 import tafadza from "./Assets/Tafadzwa.jpeg";
@@ -13,7 +13,8 @@ const mentors = [
     photo: sharon,
     name: "Eneyi Oshi",
     country: "Nigeria",
-    description: "Eneyi Oshi is the convener of Equip Africa. She is the co-founder & CEO of Maatalous Nasah and she further leads the digital marketing arm (Farmisphere). She is a dynamic Agricultural Economist by training with a strong background in farm management. Entrepreneurship has been a natural thing for her, growing up in a rural community where young children around her suffered from malnutrition and scarcity of particularly protein foods due to its high cost and availability. She was determined to find out the particular cause and develop a solution, this led her to take up a 5 year degree programme studying Agriclutral Economics and Extension in the University of Port Harcourt. Her passion for proelling food security earned her a first class as she further ventured into agripreneurship during her 3rd year of schooling. However, she is a proponent of social entrepreneurship and therefore is particular about tackling malnutrition and ensuring food security especially in meeting protein needs sustainably. Her passion also led her to adopt the use of technological trends combined with the circular econmy to imp",
+    description:
+      "Eneyi Oshi is the convener of Equip Africa. She is the co-founder & CEO of Maatalous Nasah and she further leads the digital marketing arm (Farmisphere). She is a dynamic Agricultural Economist by training with a strong background in farm management. Entrepreneurship has been a natural thing for her, growing up in a rural community where young children around her suffered from malnutrition and scarcity of particularly protein foods due to its high cost and availability. She was determined to find out the particular cause and develop a solution, this led her to take up a 5 year degree programme studying Agriclutral Economics and Extension in the University of Port Harcourt. Her passion for proelling food security earned her a first class as she further ventured into agripreneurship during her 3rd year of schooling. However, she is a proponent of social entrepreneurship and therefore is particular about tackling malnutrition and ensuring food security especially in meeting protein needs sustainably. Her passion also led her to adopt the use of technological trends combined with the circular econmy to imp",
   },
 
   {
@@ -53,20 +54,20 @@ const mentors = [
 
   {
     id: 6,
-    photo: tafadza,
-    name: "Tafadzwa Chikwereti",
-    country: "Nigeria",
-    description:
-      "Tafadzwa is the Founder-Director of eAgro. eAgro is an agri-tech startup building accessible technologies for smallholder farmers in southern Africa. eAgro has been recognized and raised funds from organisation such as Total energies, MIT solve, Luxerburg house of financial technology",
-  },
-
-  {
-    id: 7,
     photo: osata,
     name: "Osato El-Osemwingie",
     country: "Nigeria",
     description:
       "Osato is a Chemical Engineering Graduate of Covenant University with 5 years of working experience in Non-governmental organization and Oil Industry. She is an Alumni of Tekedia Institute where she did her MBA including Lagos Business School for a business mentorship program. I started business at age 15, made my first Million at age 21 selling cold Zobo in 3 hostels at Covenant University every night. I have built a startup to generating 8 figures annually in less than 28 months of starting #Inevertakenoforananswer. My love for unlocking the value in Nigeria's meat industry led me to building an end to end kilishi processing company; El Gazelle kilishi. I lead process & product development, identify technologies to automate our process, oversee installation of machineries from start to finish, also ensuring compliance to NAFDAC/HACCP/ISO Standard amongst others. We have a staff Strength of 7, partner with 36 farmers from local communities in Osun State to source our raw materials, exported 20,000 and sold over 190,000 packs of our product locally , we also have our presence in over 100 retail outlets in Nigeria within 3 years of our existence. I have been recognized and Supported by several notable organizations and individuals for my work in the business and philanthropy line some of whom are; the Ooni of Ife ( Oba Adeyeye Enitan Ogunwusi) , Her Excellency the first lady of Ogun State ( Mrs Bamidele Abiodun), Former United States Consul General Claire Pierangelo and including Nigeria Export Promotion Council, Softcom amongst others. I have spent much of my career helping the less privileged, educating young girls on entrepreneurship, their sexuality, giving them free sanitary pads, giving out scholarship; currently I have 5 children in private primary school on full scholarship, we have helped refurbishing clinics and paying for medical bills for those living below the poverty line. I have worked with Matadors Leadership Institute in mentoring 300 secondary school girls in Osun State on coding, website development and application building in partnership with the United States Consulate, mentored over 80 young girls at Pearls Africa, worked in a team of 5 leading 200 YALI members working with the monitoring and evaluation team and also Slum to School Africa on diverse community development projects in Lagos state. I am an active member with the Association of professional Women Engineers in Nigeria (APWEN) and Nigeria society of Engineers",
+  },
+
+  {
+    id: 7,
+    photo: tafadza,
+    name: "Tafadzwa Chikwereti",
+    country: "Nigeria",
+    description:
+      "Tafadzwa is the Founder-Director of eAgro. eAgro is an agri-tech startup building accessible technologies for smallholder farmers in southern Africa. eAgro has been recognized and raised funds from organisation such as Total energies, MIT solve, Luxerburg house of financial technology",
   },
 ];
 

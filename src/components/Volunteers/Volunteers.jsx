@@ -7,6 +7,7 @@ const Volunteers = () => {
     <section>
       <div className="volunteer-container containers">
         <h1>Meet Our Volunteers</h1>
+        <h4>Our first cohort of volunteers for Equip Africa</h4>
 
         <div className="volunteers">
           {volunteers.map(({ id, photo, name, Role }) => {

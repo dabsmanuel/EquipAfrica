@@ -7,23 +7,16 @@
     color: #ffffff;
 }
 
-.socal {
+.end .socal {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
+    gap: 3rem;
     margin-bottom: 1rem;
+    color: var(--color-neg);
+    font-size: 1.3rem;
 }
 
-.social a {
-    color: #fff;
-    font-size: 2rem;
-    padding: 0rem 2rem;
-}    
-
-.ocial a:hover{
-    color: rgb(202, 202, 202);
-}
 
 .footer {
     display: flex;
@@ -44,8 +37,20 @@
 .footerlist li a {
     color: #ffffff;
     text-decoration: none;
+    transition: 800ms all ease;
+}
+
+.footerlist li a:hover{
+    color: var(--color-neg);
 }
 
 .copy {
     text-align: center;
+}
+
+@media screen and (max-width: 698px) {
+
+    .footerlist ul {
+        display: block;
+    }
 }

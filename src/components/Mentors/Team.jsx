@@ -5,8 +5,8 @@ import "./team.css";
 const Team = ({ photo, name, description, country, title }) => {
   const [showModal, setShowModal] = useState(false);
   return (
-    <section id="team">
-      <div className="photo-container containers">
+    <section id="team-container">
+      <div className="photo-container">
         <div className="person">
           <div className="person-image">
             <img src={photo} alt="" />

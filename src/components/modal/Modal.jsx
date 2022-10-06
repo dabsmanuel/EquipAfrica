@@ -5,7 +5,7 @@ const Modal = ({ setShowModal, photo, name, description }) => {
     <div className="modal-wrapper">
       <div className="modal">
         <button className="close-btn" onClick={() => setShowModal(false)}>
-          x
+          X
         </button>
 
           

@@ -6,12 +6,12 @@
   top: 0;
   left: 0;
   width: 100%;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.9);
   z-index: 999;
 }
 
 .modal {
-  background: rgb(152, 146, 146);
+  background: var(--color-neg);
   width: 85%;
   padding: 1em;
   margin: 0 auto;
@@ -21,12 +21,13 @@
 
 .modal-body{
   width: 90%;
-  color: #0000;
   margin: o auto;
+  text-align: center;
 }
 
 .modal-body img {
-  width: 30%;
+  width: 25%;
+  margin: 0 auto;
 }
 
 .close-btn{
@@ -35,4 +36,10 @@
   border-radius: 0.3rem;
   outline: none;
   border: none;
+  cursor: pointer;
+  transition: 800ms all ease;
+}
+
+.close-btn:hover {
+  background: rgb(147, 145, 145);
 }

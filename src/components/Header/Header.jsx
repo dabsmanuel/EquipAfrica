@@ -1,11 +1,13 @@
-import React from 'react'
-import headerimage from '../../Assets/headerImage-removebg-preview.png'
+import { useState } from 'react';
+import headerimage from '../../Assets/headerImage-removebg-preview.png';
+import HeaderModal from '../headerModal/HeaderModal';
 import './Header.css'
 
 
 const Header = () => {
+  const [openModal, setOpenModal] = useState(false);
   return (
-    <section id='Home'>
+    <section id="Home">
       <div className="header-container">
         <div className="header containers">
           <div className="header-one">
@@ -20,7 +22,10 @@ const Header = () => {
               experts, build connections, grab opportunities and become a better
               person
             </p>
-            <button className="btn-success">Apply here</button>
+            <button className="btn-success" onClick={() => setOpenModal(true)}>
+              Apply here
+            </button>
+            <HeaderModal open={openModal} onClose={() => setOpenModal(false)}/>
           </div>
 
           <div className="header-two">

@@ -49,7 +49,7 @@ const Footer = () => {
               href="https://facebook.com/groups/347902206767013/?ref=share"
               target="_blanc"
             >
-              <FiFacebook />
+              <FiFacebook className="icons"/>
             </a>
             <a href="https://linkedin.com/groups/14097541" target="_blanc">
               <FaLinkedin />

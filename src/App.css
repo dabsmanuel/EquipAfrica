@@ -1,16 +1,19 @@
-.card-list {
+.mentors {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
+    gap: 1rem;
+    width: 90%;
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 1200px) {
-  .card-list {
+  .mentors {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media screen and (max-width: 900px) {
-  .card-list {
+  .mentors {
     grid-template-columns: 1fr;
   }
 }
