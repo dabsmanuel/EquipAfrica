@@ -7,6 +7,7 @@ import udekaigbo from "../../Assets/udekaigbo.jpg";
 import enore from "../../Assets/enore.jpg";
 import joy from "../../Assets/joy.jpg";
 import victoria from "../../Assets/victoria.jpg";
+import mercy from "../../Assets/mercy.jpg"
 
 
 const Volunteers = [
@@ -72,6 +73,13 @@ const Volunteers = [
     name: "Joy Onenu Gabriel",
     Role: "Program Coordinator",
   },
+
+  {
+    id: 10,
+    photo: mercy,
+    name: "Mercy Ezeh",
+    Role: "Technical Team",
+  }
 ];
 
 export default Volunteers;

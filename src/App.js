@@ -24,6 +24,7 @@ function App() {
             key={data.id}
             photo={data.photo}
             name={data.name}
+            country={data.country}
             description={data.description}
           />
         ))}

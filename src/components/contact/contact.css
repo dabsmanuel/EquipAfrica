@@ -10,7 +10,7 @@
 }
 
 .contact-image{
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -21,9 +21,6 @@
 
 .contact-body{
     display: flex;
-    justify-content: space-around;
-    justify-content: center;
-    gap: 2rem;
 }
 
 .item{

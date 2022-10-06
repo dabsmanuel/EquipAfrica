@@ -10,6 +10,7 @@
   transition: 1000ms all ease;
   border: 2px solid var(--color-green);
   border-radius: 1rem;
+  height: 55vh;
 }
 
 .person-image {
