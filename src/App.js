@@ -6,6 +6,7 @@ import Team from "./components/Mentors/Team";
 import Volunteers from "./components/Volunteers/Volunteers";
 import Footer from "./components/footer/Footer";
 import mentors from "./mentorData";
+import Reps from "./components/reps/Reps";
 import Teamcard from "./components/TeamCard/Teamcard";
 import Contact from "./components/contact/Contact";
 import "./App.css";
@@ -29,6 +30,7 @@ function App() {
           />
         ))}
       </div>
+      <Reps />
       <Volunteers />
       <Contact />
       <Footer />

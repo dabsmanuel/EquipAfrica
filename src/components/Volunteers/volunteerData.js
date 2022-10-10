@@ -7,7 +7,8 @@ import udekaigbo from "../../Assets/udekaigbo.jpg";
 import enore from "../../Assets/enore.jpg";
 import joy from "../../Assets/joy.jpg";
 import victoria from "../../Assets/victoria.jpg";
-import mercy from "../../Assets/mercy.jpg"
+import mercy from "../../Assets/mercy.jpg";
+import cynthia from '../../Assets/cynthia.jpg';
 
 
 const Volunteers = [
@@ -50,7 +51,7 @@ const Volunteers = [
     id: 6,
     photo: dabs,
     name: "Oyibo D. Emmanuel",
-    Role: "Website Developer",
+    Role: "Technical Team",
   },
 
   {
@@ -79,7 +80,14 @@ const Volunteers = [
     photo: mercy,
     name: "Mercy Ezeh",
     Role: "Technical Team",
-  }
+  },
+
+  {
+    id: 11,
+    photo: cynthia,
+    name: "Cynthia Umaru",
+    Role: "Content Creation Team",
+  },
 ];
 
 export default Volunteers;

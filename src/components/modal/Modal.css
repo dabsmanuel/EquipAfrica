@@ -22,7 +22,10 @@
 .modal-body{
   width: 90%;
   margin: o auto;
-  text-align: center;
+}
+
+.modal-body p{
+  font-size: 0.7rem;
 }
 
 .modal-body img {
