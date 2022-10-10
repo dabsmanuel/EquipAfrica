@@ -11,6 +11,10 @@ import Teamcard from "./components/TeamCard/Teamcard";
 import Contact from "./components/contact/Contact";
 import "./App.css";
 
+import AOS from "aos";
+import "aos/dist/aos.css"; 
+AOS.init();
+
 function App() {
   return (
     <>

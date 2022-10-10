@@ -7,7 +7,7 @@ const Team = ({ photo, name, description, country, title }) => {
   return (
     <section id="team-container">
       <div className="photo-container">
-        <div className="person">
+        <div className="person" data-aos="fade-up" data-aos-duration="1000">
           <div className="person-image">
             <img src={photo} alt="" />
           </div>

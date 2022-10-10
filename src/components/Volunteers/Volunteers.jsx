@@ -12,7 +12,12 @@ const Volunteers = () => {
         <div className="volunteers">
           {volunteers.map(({ id, photo, name, Role }) => {
             return (
-              <div className="volunteer-group" key={id}>
+              <div
+                className="volunteer-group"
+                key={id}
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <div className="volunteer-image">
                   <img src={photo} alt="" />
                 </div>

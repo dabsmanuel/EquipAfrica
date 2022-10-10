@@ -19,7 +19,11 @@ const Rep = () => {
         <div className="country-reps">
           {Reps.map((rep) => {
             return (
-              <div className="country">
+              <div
+                className="country"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <img src={rep.pics} alt="" />
                 <div className="bio-container">
                   <h2>{rep.repname}</h2>

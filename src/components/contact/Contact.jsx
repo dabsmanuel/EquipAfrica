@@ -5,15 +5,17 @@ import "./contact.css";
 
 const Contact = () => {
   return (
-    <section id='contact'>
+    <section id="contact">
       <div className="contact-container containers">
         <h1>Contact Us</h1>
         <div className="contact-body">
-          <div className="contact-image">
+          <div
+            className="contact-image">
             <img src={contact} alt="" />
           </div>
-          <div className="contact-text">
-            {contData.map(({id, pic, title, heading, paragraph}) => {
+          <div
+            className="contact-text">
+            {contData.map(({ id, pic, title, heading, paragraph }) => {
               return (
                 <div className="item" key={id}>
                   <i>{pic}</i>
@@ -24,7 +26,7 @@ const Contact = () => {
               );
             })}
           </div>
-        </div> 
+        </div>
       </div>
     </section>
   );

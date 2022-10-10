@@ -23,7 +23,7 @@
 }
 
 .country img{
-    width: 90%;
+    width: 35%;
 }
 
 .country p{
@@ -38,5 +38,11 @@
 
     .country h2 {
         padding: 1rem 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .country img{
+        width: 100%;
     }
 }
