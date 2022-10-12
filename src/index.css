@@ -11,7 +11,7 @@
   --color-green: #0f7909;
   --color-brown: #45351b;
   --color-primary: #f4eff3;
-  --color-neg: #000000;
+  --color-neg: #1D2123;
 }
 
 html {
@@ -19,8 +19,8 @@ html {
 }
 
 body {
-  font-family: "Nunito", sans-serif !important;
-  background-color: var(--color-neg) !important;
+  font-family: "Nunito", sans-serif ;
+  background-color: var(--color-neg);
 }
 
 .containers{

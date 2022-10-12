@@ -1,88 +1,89 @@
 .header-container {
-    background: linear-gradient(rgba(255, 255, 255, 0.912), rgba(0, 0, 0, 0.7)), url('../../Assets/home1logo.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    object-fit:contain;
+  background: linear-gradient(rgba(255, 255, 255, 0.912), rgba(0, 0, 0, 0.7)),
+    url("../../Assets/home1logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 110vh;
+  object-fit: contain;
 }
 
-.header{
-    display: grid;
-    grid-template-columns: 56% 34%;
-    gap: 10%;
-    place-items: center;
-    padding: 2rem;
+.header {
+  display: grid;
+  grid-template-columns: 56% 34%;
+  gap: 10%;
+  place-items: center;
+  padding: 2rem;
 }
 
-.header-one h1, .header-one p {
-    color: var(--color-primary);
+.header-one h1,
+.header-one p {
+  color: var(--color-primary);
 }
 
 .header-one h1 {
-    font-size: 2.7rem;
+  font-size: 2.7rem;
 }
 
 .header-one h3 {
-    font-size: 1.7rem;
+  font-size: 1.7rem;
 }
 
 .header-one h3 span.redd {
-    color: var(--color-red);
+  color: var(--color-red);
 }
 
 .header-one h3 span.green {
-    color: var(--color-green);
+  color: var(--color-green);
 }
 
 .header-one h3 span.brown {
-    color: var(--color-brown);
+  color: var(--color-brown);
 }
 
-
-.header-one p{
-    font-size: 1.3rem;
-    margin: 0.5rem 0 0.5rem 0;
+.header-one p {
+  font-size: 1.3rem;
+  margin: 0.5rem 0 0.5rem 0;
 }
 
 @media screen and (max-width: 1100px) {
-    .header-container {
-        padding-top: 1rem;
-    }
+  .header-container {
+    padding-top: 1rem;
+  }
 
-    .header-two {
-        display: none;
-    }
+  .header-two {
+    display: none;
+  }
 
-    .header {
-        display: block;
-        padding-top: 5rem;
-    }
+  .header {
+    display: block;
+    padding-top: 5rem;
+  }
 
-    .header-one p, .header-one h1, .header-one h3{
-        text-align: center;
-        width: 100%;
-        padding-top: 1rem;
-    }
+  .header-one p,
+  .header-one h1,
+  .header-one h3 {
+    text-align: center;
+    width: 100%;
+    padding-top: 1rem;
+  }
 
-    .header-one button.btn-success {
-        display: flex;
-        margin: 0 auto;
-    }
-
+  .header-one button.btn-success {
+    display: flex;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    .header-one h1 {
-        font-size: 2rem;
-    }
-    .header-one h3 {
-        font-size: 1.5rem;
-    }
+  .header-one h1 {
+    font-size: 2rem;
+  }
+  .header-one h3 {
+    font-size: 1.5rem;
+  }
 
-    .header-one p {
-        font-size: 1rem;
-        padding-bottom: 1rem;
-    }
-
+  .header-one p {
+    font-size: 1rem;
+    padding-bottom: 1rem;
+  }
 }

@@ -6,13 +6,13 @@
   top: 0;
   left: 0;
   width: 100%;
-  background: rgba(0, 0, 0, 0.9);
+  background: #000000e6;
   z-index: 999;
 }
 
 .modal {
   background: var(--color-neg);
-  width: 85%;
+  width: 100%;
   padding: 1em;
   margin: 0 auto;
   height: 100vh;
@@ -20,12 +20,20 @@
 }
 
 .modal-body{
-  width: 90%;
+  width: 95%;
   margin: o auto;
 }
 
+.modal-body p i{
+  font-size: 0.9rem;
+}
+
 .modal-body p{
-  font-size: 0.7rem;
+  margin-top: 0.5rem;
+}
+
+.modal-body h3{
+  margin-top: 1rem;
 }
 
 .modal-body img {
