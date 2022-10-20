@@ -8,7 +8,7 @@ const Rep = () => {
         <div className="rep-about">
           <h1>Meet Our Country Reps</h1>
           <p>
-            Country Reps volunteers their time to promoto youth involvement in
+            Country Reps volunteers their time to promote youth involvement in
             their countries among the Equip Africa community. Country Reps also
             oversee affairs of members within their nationalities. Each Country
             Rep will spend 4 hours each month contributing to community building
@@ -27,6 +27,7 @@ const Rep = () => {
                 <img src={rep.pics} alt="" />
                 <div className="bio-container">
                   <h2>{rep.repname}</h2>
+                  <h3>Country: {rep.country}</h3>
                   <p>{rep.bio}</p>
                 </div>
               </div>

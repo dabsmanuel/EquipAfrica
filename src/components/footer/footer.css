@@ -46,6 +46,7 @@
 
 .copy {
     text-align: center;
+    color: var(--color-primary);
     font-size: 0.9rem;
 }
 

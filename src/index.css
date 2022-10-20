@@ -10,7 +10,7 @@
   --color-red: #ff0606;
   --color-green: #0f7909;
   --color-brown: #45351b;
-  --color-primary: #f4eff3;
+  --color-primary: #fFFF;
   --color-neg: #1D2123;
 }
 
@@ -20,7 +20,7 @@ html {
 
 body {
   font-family: "Nunito", sans-serif ;
-  background-color: var(--color-neg);
+  background-color: var(--color-primary);
 }
 
 .containers{
@@ -34,13 +34,13 @@ body {
   background: transparent;
   border: 2px solid var(--color-green);
   font-size: 1.2rem;
-  transition: 100ms all ease;
+  transition: 400ms all ease;
   border-radius: 2rem;
   color: var(--color-primary);
 }
 
 h1, h2, h3, h4, h5, h6, p {
-  color: var(--color-primary);
+  color: var(--color-neg);
 }
 
 .btn-success:hover{
@@ -52,7 +52,6 @@ h1, h2, h3, h4, h5, h6, p {
   outline: none;
   background: transparent;
   border: 2px solid #198754;
-  /* font-size: 1.2rem; */
   transition: 800ms all ease;
   border-radius: 2rem;
   color: var(--color-primary);

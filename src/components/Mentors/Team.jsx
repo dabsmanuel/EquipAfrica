@@ -5,15 +5,18 @@ import "./team.css";
 const Team = ({ photo, name, description, country, title }) => {
   const [showModal, setShowModal] = useState(false);
   return (
-    <section id="team-container">
-      <div className="photo-container">
-        <div className="person" data-aos="fade-up" data-aos-duration="1000">
+    <section id="team">
+      <div
+        className="photo-container"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
+        <div className="person">
           <div className="person-image">
             <img src={photo} alt="" />
           </div>
-          <h5>{name}</h5>
+          <h3>{name}</h3>
           <p>{country}</p>
-          <p>{title}</p>
           <button className="btn-primary" onClick={() => setShowModal(true)}>
             Read More
           </button>

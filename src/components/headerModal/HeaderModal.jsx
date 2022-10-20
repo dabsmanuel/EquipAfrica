@@ -61,7 +61,7 @@ const HeaderModal = ({ open, onClose }) => {
                 placeholder="Tell us About Yourself"
                 required
               ></textarea>
-              <button type="submit" className="btn btn-primary">
+              <button type="submit" className="btn">
                 Submit
               </button>
             </form>

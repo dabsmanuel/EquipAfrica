@@ -3,10 +3,16 @@
     top: 10px;
 }
 
+.warning > h2, p{
+    color: var(--color-neg) !important;
+    text-align: center;
+}
+
 form {
     display: flex;
     flex-direction: column;
     gap: 1.3rem;
+    
 }
 
 .text-area {
@@ -23,20 +29,36 @@ form {
 }
 
 input, textarea {
-    width: 100%;
+    width: 50%;
     padding: 1rem;
     border-radius: 0.5rem;
     background: transparent;
-    border: 2px solid var(--color-primary);
+    border: 2px solid var(--color-green);
     resize: none;
     color: #000;
     transition: var(--transition);
+    margin: 0 auto;
 }
 
 input:focus {
-    border: 2px solid var(--color-primary-variant);
+    border: 2px solid var(--color-red);
 }
 
 textarea:focus {
     border: 2px solid var(--color-primary-variant);
+}
+
+.btn{
+    border: 2px solid var(--color-green);
+    background: transparent;
+    width: fit-content;
+    padding: 0.5rem 4rem;
+    margin: 0 auto;
+    border-radius: 1rem;
+    transition: 800ms all ease;
+}
+
+.btn:hover{
+    background: var(--color-green);
+    color: var(--color-primary);
 }

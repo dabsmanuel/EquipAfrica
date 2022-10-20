@@ -42,51 +42,51 @@ const Volunteers = [
 
   {
     id: 5,
-    photo: victoria,
-    name: "Victoria E. Ubani.",
-    Role: "Gen. community Mgr, Content creator & program coordinator",
+    photo: cynthia,
+    name: "Cynthia Umaru",
+    Role: "Content Creation Team",
   },
 
   {
     id: 6,
-    photo: dabs,
-    name: "Oyibo D. Emmanuel",
-    Role: "Technical Team",
+    photo: victoria,
+    name: "Victoria E. Ubani.",
+    Role: "community Mgr, Content creator & program coordinator",
   },
 
   {
     id: 7,
+    photo: dabs,
+    name: "Dabobuboibi Emmanuel Oyibo",
+    Role: "Technical Team",
+  },
+
+  {
+    id: 8,
     photo: udekaigbo,
     name: "Udekaigbo Emmanuel",
     Role: "Technical Team",
   },
 
   {
-    id: 8,
-    photo: enore,
-    name: "Enoredia Aghedo",
-    Role: "Program Coordinator",
-  },
-
-  {
     id: 9,
-    photo: joy,
-    name: "Joy Onenu Gabriel",
-    Role: "Program Coordinator",
-  },
-
-  {
-    id: 10,
     photo: mercy,
     name: "Mercy Ezeh",
     Role: "Technical Team",
   },
 
   {
+    id: 10,
+    photo: enore,
+    name: "Enoredia Aghedo",
+    Role: "Program Coordinator",
+  },
+
+  {
     id: 11,
-    photo: cynthia,
-    name: "Cynthia Umaru",
-    Role: "Content Creation Team",
+    photo: joy,
+    name: "Joy Onenu Gabriel",
+    Role: "Program Coordinator",
   },
 ];
 

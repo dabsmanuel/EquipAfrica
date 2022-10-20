@@ -1,16 +1,15 @@
 #contact{
-    padding: 2.5rem 0;
-    background: var(--color-green);
+    padding: 2rem 0;
 }
 
 .contact-container h1{
     font-size: 2.5rem;
     text-align: center;
-    padding-bottom: 1rem;
+    color: var(--color-red);
 }
 
 .contact-image{
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
 }
 
@@ -21,17 +20,18 @@
 
 .contact-body{
     display: flex;
-    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    /* gap: 1rem; */
 }
 
 .item{
     padding-bottom: 1rem;
-    font-size: 0.98rem;
+    font-size: 1rem;
 }
 
 i {
     font-size: 1.45rem;
-    color: var(--color-primary);
 }
 
 @media screen and (max-width: 1200px){

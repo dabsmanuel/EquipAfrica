@@ -1,7 +1,7 @@
 .mentors {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
-    gap: 1rem;
+    gap: 1.5rem;
     width: 90%;
     margin: 0 auto;
 }
@@ -12,7 +12,7 @@
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 700px) {
   .mentors {
     grid-template-columns: 1fr;
   }

@@ -1,5 +1,5 @@
 .reps-container{
-    padding: 2rem 0;
+    padding: 4rem 0;
 }
 
 .reps-container h1{
@@ -23,7 +23,15 @@
 }
 
 .country img{
+    border-left: 8px solid var(--color-red);  
+    border-right: 8px solid var(--color-red);  
     width: 35%;
+    transition: 800ms all ease;
+}
+
+.country img:hover{
+    box-shadow: 0 6px 6px 6px rgb(43, 45, 44);
+    transform: translateY(-8px);
 }
 
 .country p{
@@ -44,5 +52,6 @@
 @media screen and (max-width: 600px) {
     .country img{
         width: 100%;
+        padding: 0;
     }
 }
