@@ -124,12 +124,13 @@ nav {
     text-align: right;
     padding: 3rem;
     list-style: none;
-    background: #b3b3b3;
+    background: var(--color-primary);
     z-index: 100;
   }
 
   .nav-menu-active li {
     margin-top: 1rem;
+    padding: 1rem 0;
   }
 
   .nav-menu-active a {
