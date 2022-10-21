@@ -44,7 +44,7 @@ const Footer = () => {
         </div>
         <hr />
         <div className="end">
-          <div className="socal">
+          <div className="social">
             <a
               href="https://facebook.com/groups/347902206767013/?ref=share"
               target="_blanc"

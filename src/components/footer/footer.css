@@ -7,7 +7,7 @@
     color: #ffffff;
 }
 
-.end .socal {
+.end .social {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,6 +17,13 @@
     font-size: 1.3rem;
 }
 
+.social a{
+    color: var(--color-primary);
+}
+
+.social a:hover{
+    color: var(--color-);
+}
 
 .footer {
     display: flex;
@@ -46,7 +53,7 @@
 
 .copy {
     text-align: center;
-    color: var(--color-primary);
+    color: var(--color-primary) !important;
     font-size: 0.9rem;
 }
 
