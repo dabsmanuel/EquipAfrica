@@ -23,6 +23,7 @@ const Rep = () => {
                 className="country"
                 data-aos="fade-up"
                 data-aos-duration="1000"
+                key={rep.id}
               >
                 <img src={rep.pics} alt="" />
                 <div className="bio-container">

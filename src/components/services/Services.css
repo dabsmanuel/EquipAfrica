@@ -4,7 +4,7 @@
 }
 
 .services-container h1{
-    color: var(--color-red);
+    color: var(--color-green);
     text-align: center;
     font-size: 2.5rem;
     padding-bottom: 1rem;
@@ -25,20 +25,20 @@
 }
 
 .service-card{
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
     border-radius: 3rem;
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
     transition: 1000ms all ease;
-    border: 4px solid var(--color-brown);
-    border-left: 8px solid var(--color-red);  
-    border-right: 8px solid var(--color-red);  
+    border: 2px solid var(--color-brown);
+    border-left: 8px solid var(--color-green);  
+    border-right: 8px solid var(--color-green);  
 }
 
 .service-card:hover{
     transform: translateY(-8px);
-    box-shadow: 0 8px 8px 8px rgb(43, 45, 44);
+    box-shadow: 0 3px 3px 3px rgb(43, 45, 44);
 }
 
 .service-card p {
@@ -47,7 +47,7 @@
 }
 
 .icon-container {
-    font-size: 4rem;
+    font-size: 3rem;
     color: var(--color-neg);
 }
 

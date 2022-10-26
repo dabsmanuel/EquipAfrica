@@ -36,7 +36,7 @@ body {
   font-size: 1.2rem;
   transition: 400ms all ease;
   border-radius: 2rem;
-  color: var(--color-primary);
+  color: var(--color-neg);
 }
 
 h1, h2, h3, h4, h5, h6, p {

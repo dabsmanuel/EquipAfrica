@@ -19,7 +19,7 @@ const Services = () => {
                 <div className="service-card" key={id}>
                   <div className="icon-container">{icon}</div>
                   <div className="card-writeup">
-                    <h2>{title}</h2>
+                    <h3>{title}</h3>
                     <p>{description}</p>
                   </div>
                 </div>

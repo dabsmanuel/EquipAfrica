@@ -1,4 +1,4 @@
-import volunteers from "../Volunteers/volunteerData";
+import volunteers from "./volunteerData";
 import './volunteer.css'
 
 
@@ -6,14 +6,14 @@ const Volunteers = () => {
   return (
     <section>
       <div className="volunteer-container containers">
-        <h1>Meet Our Strategic Team</h1>
+        <h1>Meet Our Volunteers</h1>
         <h4>Our first cohort of volunteers for Equip Africa</h4>
 
         <div className="volunteers" >
           {volunteers.map(({ id, photo, name, Role }) => {
             return (
-              <div className="vol" data-aos="fade-up" data-aos-duration="1000" key={id}>
-                <div className="volunteer-group" >
+              <div className="vol" data-aos="fade-up" data-aos-duration="1000">
+                <div className="volunteer-group" key={id}>
                   <div className="volunteer-image">
                     <img src={photo} alt="" />
                   </div>

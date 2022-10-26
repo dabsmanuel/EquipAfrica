@@ -9,89 +9,81 @@ import joy from "../../Assets/joy.jpg";
 import victoria from "../../Assets/victoria.jpg";
 import mercy from "../../Assets/mercy.jpg";
 import cynthia from '../../Assets/cynthia.jpg';
-import shalom from "../../Assets/shalom.jpg"
 
 
 const Volunteers = [
   {
     id: 1,
-    photo: shalom,
-    name: "Eneyi Oshi",
-    Role: "Founder",
-  },
-
-  {
-    id: 2,
     photo: maryam,
     name: "Atolagbe Maryam ",
     Role: "Graphics design team",
   },
 
   {
-    id: 3,
+    id: 2,
     photo: valentina,
     name: "Obi Valentina",
-    Role: "Director of Information",
+    Role: "Graphics Design Team",
+  },
+
+  {
+    id: 3,
+    photo: akinola,
+    name: "Akinola Joshua Adefolarera",
+    Role: "Media manager",
   },
 
   {
     id: 4,
-    photo: akinola,
-    name: "Akinola Joshua Adefolarera",
-    Role: "Social Community Member",
-  },
-
-  {
-    id: 5,
     photo: hephzibah,
     name: "Hephzibah ijeje",
     Role: "Content creation team",
   },
 
   {
-    id: 6,
+    id: 5,
     photo: cynthia,
     name: "Cynthia Umaru",
     Role: "Content Creation Team",
   },
 
   {
-    id: 7,
+    id: 6,
     photo: victoria,
     name: "Victoria E. Ubani.",
-    Role: "General community Manager",
+    Role: "community Mgr, Content creator & program coordinator",
+  },
+
+  {
+    id: 7,
+    photo: dabs,
+    name: "Dabobuboibi Emmanuel Oyibo",
+    Role: "Technical Team",
   },
 
   {
     id: 8,
-    photo: dabs,
-    name: "Dabobuboibi Emmanuel Oyibo",
-    Role: "Director of Technology",
-  },
-
-  {
-    id: 9,
     photo: udekaigbo,
     name: "Udekaigbo Emmanuel",
     Role: "Technical Team",
   },
 
   {
-    id: 10,
+    id: 9,
     photo: mercy,
     name: "Mercy Ezeh",
     Role: "Technical Team",
   },
 
   {
-    id: 11,
+    id: 10,
     photo: enore,
     name: "Enoredia Aghedo",
-    Role: "Director of Programme",
+    Role: "Program Coordinator",
   },
 
   {
-    id: 12,
+    id: 11,
     photo: joy,
     name: "Joy Onenu Gabriel",
     Role: "Program Coordinator",
