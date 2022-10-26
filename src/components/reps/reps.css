@@ -1,5 +1,5 @@
 .reps-container{
-    padding: 2rem 0;
+    padding: 4rem 0 2rem 0;
 }
 
 .reps-container h1{
@@ -16,16 +16,16 @@
 
 .country {
     display: flex;
-    gap: 1.5rem;
+    gap: 1rem;
     align-items: center;
-    padding: 2rem 0;
-    /* width: 100%; */
+    padding: 1rem 0;
+    width: 100%;
 }
 
 .country img{
     border-left: 8px solid var(--color-green);  
     border-right: 8px solid var(--color-green);  
-    width: 100%;
+    width: 40%;
     transition: 800ms all ease;
 }
 
