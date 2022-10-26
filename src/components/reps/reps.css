@@ -5,7 +5,7 @@
 .reps-container h1{
     text-align: center;
     font-size: 2.5rem;
-    color: var(--color-red);
+    color: var(--color-green);
     padding-bottom: 1rem;
 }
 
@@ -19,18 +19,18 @@
     gap: 1.5rem;
     align-items: center;
     padding: 2rem 0;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .country img{
-    border-left: 8px solid var(--color-red);  
-    border-right: 8px solid var(--color-red);  
-    width: 35%;
+    border-left: 8px solid var(--color-green);  
+    border-right: 8px solid var(--color-green);  
+    width: 100%;
     transition: 800ms all ease;
 }
 
 .country img:hover{
-    box-shadow: 0 6px 6px 6px rgb(43, 45, 44);
+    box-shadow: 0 3px 3px 3px rgb(204, 207, 205);
     transform: translateY(-8px);
 }
 
@@ -53,5 +53,9 @@
     .country img{
         width: 100%;
         padding: 0;
+    }
+
+    .reps-container h1{
+        font-size: 2rem;
     }
 }
