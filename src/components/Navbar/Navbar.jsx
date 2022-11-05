@@ -1,5 +1,6 @@
-import React, { useState } from "react";
-import navLogo from "../../Assets/home1logo.png";
+import { Link } from "react-router-dom";
+import { useState } from "react";
+import navLogo from "../../Assets/home.png";
 import { GrClose } from "react-icons/gr";
 import { FiMenu } from "react-icons/fi";
 import "./Navbar.css";
@@ -12,34 +13,44 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="nav-container">
-        <a href="#Home" className="nav-logo">
+        <Link to="/" className="nav-logo">
           <img src={navLogo} className="img-fluid navbar-brand" alt="logo" />
-        </a>
+        </Link>
         <ul className="nav-menu">
           <li className="nav-item">
-            <a href="#Home" className="nav-links" onClick={handleClick}>
+            <Link to="/" className="nav-links" onClick={handleClick}>
               Home
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a href="#About" className="nav-links" onClick={handleClick}>
-              About
-            </a>
+            <Link to="/mentors" className="nav-links" onClick={handleClick}>
+              Mentors
+            </Link>
           </li>
           <li className="nav-item">
-            <a href="#Services" className="nav-links" onClick={handleClick}>
-              Services
-            </a>
+            <Link
+              to="/country-reps"
+              href="#Services"
+              className="nav-links"
+              onClick={handleClick}
+            >
+              Reps
+            </Link>
           </li>
           <li className="nav-item">
-            <a href="#team" className="nav-links" onClick={handleClick}>
+            <Link to="/team" className="nav-links" onClick={handleClick}>
               Team
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a href="#contact" className="nav-links" onClick={handleClick}>
+            <Link to="/contact" className="nav-links" onClick={handleClick}>
               Contact
-            </a>
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/blog" className="nav-links" onClick={handleClick}>
+              Blog
+            </Link>
           </li>
         </ul>
         <div className="nav-icon" onClick={handleClick}>
@@ -49,29 +60,39 @@ const Navbar = () => {
           <div>
             <ul className="nav-menu-active">
               <li className="nav-item">
-                <a href="#Home" className="nav-links" onClick={handleClick}>
+                <Link to="/" className="nav-links" onClick={handleClick}>
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="#About" className="nav-links" onClick={handleClick}>
-                  About-us
-                </a>
+                <Link to="/mentors" className="nav-links" onClick={handleClick}>
+                  Mentors
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="#Services" className="nav-links" onClick={handleClick}>
-                  Services
-                </a>
+                <Link
+                  to="/country-reps"
+                  href="#Services"
+                  className="nav-links"
+                  onClick={handleClick}
+                >
+                  Reps
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="#team" className="nav-links" onClick={handleClick}>
+                <Link to="/team" className="nav-links" onClick={handleClick}>
                   Team
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="#contact" className="nav-links" onClick={handleClick}>
+                <Link to="/contact" className="nav-links" onClick={handleClick}>
                   Contact
-                </a>
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/blog" className="nav-links" onClick={handleClick}>
+                  Blog
+                </Link>
               </li>
             </ul>
           </div>

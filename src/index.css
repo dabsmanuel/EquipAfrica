@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 :root {
@@ -24,7 +25,7 @@ body {
 }
 
 .containers{
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
 }
 
@@ -35,7 +36,7 @@ body {
   border: 2px solid var(--color-green);
   font-size: 1.2rem;
   transition: 400ms all ease;
-  border-radius: 2rem;
+  border-radius: 1rem;
   color: var(--color-neg);
 }
 
@@ -45,6 +46,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .btn-success:hover{
   background: var(--color-green);
+  color: var(--color-primary);
 }
 
 .btn-primary{
@@ -54,20 +56,39 @@ h1, h2, h3, h4, h5, h6, p {
   border: 2px solid #198754;
   transition: 800ms all ease;
   border-radius: 2rem;
-  color: var(--color-primary);
-  margin-top: 1rem;
+  color: var(--color-neg);
+  display: block;
 }
 
 .btn-primary:hover{
   background: var(--color-green);
+  color: var(--color-primary);
 }
+
+/* btn sec */
+.btn-sec{
+  padding: 0.4rem;
+  outline: none;
+  background: transparent;
+  border: 2px solid #198754;
+  transition: 800ms all ease;
+  border-radius: 0.5rem;
+  color: var(--color-neg);
+  margin-top: 1rem;
+  display: block;
+  width: fit-content;
+}
+
+.btn-sec:hover{
+  border-color: #a9e4c8;
+}
+
 
 hr {
   border: 1px solid var(--color-primary);
   width: 90%;
   margin: 1rem auto;
 }
-
 @media screen and (max-width: 600px) {
   .btn-success {
     padding: 0.6rem;

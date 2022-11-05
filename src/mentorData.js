@@ -1,4 +1,4 @@
-import sharon from './Assets/shalom.jpg'
+// import sharon from './Assets/shalom.jpg'
 import mentor from './Assets/img6b.png';
 import mentor1 from "./Assets/img6c.png";
 import tafadza from "./Assets/Tafadzwa.jpeg";
@@ -8,17 +8,17 @@ import osata from "./Assets/OSATO EL- OSEMWINGIE.jpg";
 
 
 const mentors = [
-  {
-    id: 1,
-    photo: sharon,
-    name: "Eneyi Oshi",
-    country: "Nigeria",
-    description:
-      "Eneyi Oshi is the convener of Equip Africa. She is the co-founder & CEO of Maatalous Nasah and she further leads the digital marketing arm (Farmisphere). She is a dynamic Agricultural Economist by training with a strong background in farm management. Entrepreneurship has been a natural thing for her, growing up in a rural community where young children around her suffered from malnutrition and scarcity of particularly protein foods due to its high cost and availability. She was determined to find out the particular cause and develop a solution, this led her to take up a 5 year degree programme studying Agriclutral Economics and Extension in the University of Port Harcourt. Her passion for proelling food security earned her a first class as she further ventured into agripreneurship during her 3rd year of schooling. However, she is a proponent of social entrepreneurship and therefore is particular about tackling malnutrition and ensuring food security especially in meeting protein needs sustainably. Her passion also led her to adopt the use of technological trends combined with the circular economy to improve sustainability in food production through providing smart infrastructural solutins and an e-commerce marketing platform, while ensuring social impact. Her ability to harness and assemble thoughts and ideas into innovative and bright solutions has helped her co-found the start-up, manage, and run it to this point."
-  },
+  // {
+  //   id: 1,
+  //   photo: sharon,
+  //   name: "Eneyi Oshi",
+  //   country: "Nigeria",
+  //   description:
+  //     "Eneyi Oshi is the convener of Equip Africa. She is the co-founder & CEO of Maatalous Nasah and she further leads the digital marketing arm (Farmisphere). She is a dynamic Agricultural Economist by training with a strong background in farm management. Entrepreneurship has been a natural thing for her, growing up in a rural community where young children around her suffered from malnutrition and scarcity of particularly protein foods due to its high cost and availability. She was determined to find out the particular cause and develop a solution, this led her to take up a 5 year degree programme studying Agriclutral Economics and Extension in the University of Port Harcourt. Her passion for proelling food security earned her a first class as she further ventured into agripreneurship during her 3rd year of schooling. However, she is a proponent of social entrepreneurship and therefore is particular about tackling malnutrition and ensuring food security especially in meeting protein needs sustainably. Her passion also led her to adopt the use of technological trends combined with the circular economy to improve sustainability in food production through providing smart infrastructural solutins and an e-commerce marketing platform, while ensuring social impact. Her ability to harness and assemble thoughts and ideas into innovative and bright solutions has helped her co-found the start-up, manage, and run it to this point."
+  // },
 
   {
-    id: 2,
+    id: 1,
     photo: mentor,
     name: "Samson Ogbole",
     country: "Nigeria",
@@ -27,7 +27,7 @@ const mentors = [
   },
 
   {
-    id: 3,
+    id: 2,
     photo: mentor1,
     name: "Ante Joseph",
     country: "Nigeria",
@@ -35,7 +35,7 @@ const mentors = [
   },
 
   {
-    id: 4,
+    id: 3,
     photo: Joshua,
     name: "Joshua Ogbonnia",
     country: "Nigeria",
@@ -44,7 +44,7 @@ const mentors = [
   },
 
   {
-    id: 5,
+    id: 4,
     photo: sergio,
     name: "Sergio Tabe",
     country: "Cameroon",
@@ -53,7 +53,7 @@ const mentors = [
   },
 
   {
-    id: 6,
+    id: 5,
     photo: osata,
     name: "Osato El-Osemwingie",
     country: "Nigeria",
@@ -62,7 +62,7 @@ const mentors = [
   },
 
   {
-    id: 7,
+    id: 6,
     photo: tafadza,
     name: "Tafadzwa Chikwereti",
     country: "Nigeria",

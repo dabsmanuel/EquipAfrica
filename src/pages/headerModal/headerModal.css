@@ -1,11 +1,10 @@
-.fixed-btn{
-    position: fixed;
-    top: 10px;
+.form-body{
+    padding: 7rem 0 4rem 0;
 }
-
 .warning > h2, p{
     color: var(--color-neg) !important;
     text-align: center;
+    padding-bottom: 1rem;
 }
 
 form {
@@ -29,7 +28,7 @@ form {
 }
 
 input, textarea {
-    width: 50%;
+    width: 70%;
     padding: 1rem;
     border-radius: 0.5rem;
     background: transparent;
@@ -41,11 +40,11 @@ input, textarea {
 }
 
 input:focus {
-    border: 2px solid var(--color-red);
+    border: 2px solid var(--color-primary);
 }
 
 textarea:focus {
-    border: 2px solid var(--color-primary-variant);
+    border: 2px solid var(--color-red);
 }
 
 .btn{

@@ -1,11 +1,9 @@
-import { useState } from 'react';
 import headerimage from '../../Assets/headerImage-removebg-preview.png';
-import HeaderModal from '../headerModal/HeaderModal';
-import './Header.css'
+import './Header.css';
+import { Link } from "react-router-dom"
 
 
 const Header = () => {
-  const [openModal, setOpenModal] = useState(false);
   return (
     <section id="Home">
       <div className="header-container">
@@ -22,10 +20,9 @@ const Header = () => {
               experts, build connections, grab opportunities and become a better
               person
             </p>
-            <button className="btn-success" onClick={() => setOpenModal(true)}>
-              Apply here
-            </button>
-            <HeaderModal open={openModal} onClose={() => setOpenModal(false)}/>
+            <Link to="/apply">
+              <button className="btn-success">Apply here</button>
+            </Link>
           </div>
 
           <div className="header-two">
