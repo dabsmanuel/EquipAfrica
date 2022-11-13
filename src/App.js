@@ -6,9 +6,9 @@ import Contact from "./pages/contact/Contact";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import Headermodal from "./pages/headerModal/HeaderModal";
-import BlogList from "./pages/blog/BlogList";
-import BlogDetails from "./pages/blog/BlogDetails";
 import Mentordetails from "./pages/Mentors/Mentordetails"
+import Blog from "./components/Blog/Blog"
+import BlogDetails from "./components/Blog/BlogDetails"
 import AOS from "aos";
 import "aos/dist/aos.css"; 
 import Home from "./Home";
@@ -26,8 +26,8 @@ function App() {
         <Route path="/team" element={<Volunteers />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/apply" element={<Headermodal />} />
-        <Route path="/blogDetails/:id" element={<BlogDetails />} />
-        <Route path="/blog" element={<BlogList />} />
+        <Route path="/blog" element={<Blog />} /> 
+        <Route path="/blog-detail" element={<BlogDetails />} /> 
       </Routes>
       <Footer />
     </BrowserRouter>

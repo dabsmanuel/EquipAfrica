@@ -26,9 +26,9 @@ const Team = () => {
               <div className="person-image">
                 <img src={photo} alt="" />
               </div>
-              <h3>{name}</h3>
-              <p>{country}</p>
-              <Link to={`/mentor-details/${id}`} className="btn-primary">
+              <h5>{name}</h5>
+              <h6>{country}</h6>
+              <Link to="/mentor-details" className="btn-primary">
                 Read More
               </Link>
             </div>

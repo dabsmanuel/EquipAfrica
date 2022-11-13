@@ -31,7 +31,8 @@ function BlogList() {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          Authorization: "Bearer jCK-PwfRLix8avhC_d_DW8aGgGHrFl39wuoks6KMRIs",
+          Authorization:
+            `Bearer ${process.env.REACT_APP_ACCESS_TOKEN}`,
         },
         body: JSON.stringify({ query }),
       })
