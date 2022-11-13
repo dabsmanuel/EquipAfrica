@@ -27,7 +27,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/apply" element={<Headermodal />} />
         <Route path="/blog" element={<Blog />} /> 
-        <Route path="/blog-detail" element={<BlogDetails />} /> 
+        <Route path="/blog-detail/:id" element={<BlogDetails />} /> 
       </Routes>
       <Footer />
     </BrowserRouter>
