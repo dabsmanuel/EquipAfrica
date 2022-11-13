@@ -49,16 +49,15 @@ h1, h2, h3, h4, h5, h6, p {
   color: var(--color-primary);
 }
 
-.btn-primary{
-  padding: 0.6rem 0.7rem;
+/* .btn-primary{
   outline: none;
   background: transparent;
-  border: 2px solid #198754;
+  
   transition: 800ms all ease;
   border-radius: 2rem;
   color: var(--color-neg);
   display: block;
-}
+} */
 
 .btn-primary:hover{
   background: var(--color-green);
