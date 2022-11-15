@@ -18,9 +18,23 @@
 
 .textwrap p{
     text-align: justify;
-}
+} 
 
 .blog-btn{
     text-decoration: underline;
     color: #000
+}
+
+@media screen and (max-width: 900px) {
+    .blog{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .blogwrap{
+        width: 100%;
+        padding: 0rem 0.5rem 1rem 0.5rem;
+        background: #f3f3f3;
+    }
+
 }
