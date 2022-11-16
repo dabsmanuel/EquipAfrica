@@ -20,14 +20,14 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route exact path="/mentors" element={<Team />} />
-        <Route exact path="/mentor-details/:id" element={<Mentordetails />} />
+        <Route path="/mentors" element={<Team />} />
+        <Route path="/mentor-details/:id/:name" element={<Mentordetails />} />
         <Route exact path="/country-reps" element={<Reps />} />
         <Route exact path="/team" element={<Volunteers />} />
         <Route exact path="/contact" element={<Contact />} />
         <Route exact path="/apply" element={<Headermodal />} />
         <Route exact path="/blog" element={<Blog />} />
-        <Route exact path="/blog-detail/:id" element={<BlogDetails />} />
+        <Route exact path="/blog-details/:id" element={<BlogDetails />} />
       </Routes>
       <Footer />
     </BrowserRouter>

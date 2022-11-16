@@ -1,7 +1,9 @@
+/* eslint-disable eqeqeq */
 import {useState, useEffect,} from 'react';
-import {useParams} from 'react-router-dom';
-import {Link} from 'react-router-dom';
+import {Link, useParams} from 'react-router-dom';
 import mentors from "../../mentorData";
+import "./team.css";
+import "./mentordetails.css"
 
 const Mentordetails = () => {
   const { id } = useParams();
@@ -25,24 +27,24 @@ const Mentordetails = () => {
     }
 
     return () => (mounted = false);
-  }, []);
+  });
 
   if (loading) return <p>Loading...</p>;
   
   return (
-    <>
+    <div className="containers blog-container">
       {mentorData && (
-        <ul>
-          <li>
-            <img src={mentorData.photo} alt="mentor" />
-          </li>
-          <li>{mentorData.name}</li>
-          <li>{mentorData.country}</li>
-          <li>{mentorData.description}</li>
-          <Link to='/mentors' className='btn-sec'>Back</Link>
-        </ul>
+        <div className="containers blog-post">
+          <img src={mentorData.photo} alt="mentor" />
+          <h2>{mentorData.name}</h2>
+          <h3>{mentorData.country}</h3>
+          <p>{mentorData.description}</p>
+          <Link to="/mentors" className="btn-sec button">
+            Back
+          </Link>
+        </div>
       )}
-    </>
+    </div>
   );
 }
 

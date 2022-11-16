@@ -28,7 +28,7 @@ const Team = () => {
               </div>
               <h5>{name}</h5>
               <h6>{country}</h6>
-              <Link to={`/mentor-details/:${id}/${name}`} className="team-btn">
+              <Link to={`/mentor-details/${id}/${name}`} className="team-btn">
                 Read More
               </Link>
             </div>

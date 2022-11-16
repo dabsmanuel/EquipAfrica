@@ -1,0 +1,32 @@
+.blog-container{
+    padding: 6rem 0rem 4rem 0rem;
+}
+
+.blog-post{
+    width: 90%;
+}
+
+.blog-post img{
+    width: 50%;
+}
+
+
+.blog-post{
+    text-align: center;
+}
+
+.blog-post .button{
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+}
+
+@media screen and (max-width: 600px) {
+    .containers{
+        width: 90%;
+    }
+
+    .blog-post p{
+        text-align: justify;
+    }
+}
